@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Exam1_55011212149" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" colorLabel="IBBuiltInLabel-Yellow">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3R2-kj-N4Z">
+                                <rect key="frame" x="62" y="193" width="102" height="30"/>
+                                <color key="backgroundColor" red="0.89773087721451839" green="0.65695321062445" blue="0.90316087372448983" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Total">
+                                    <color key="titleColor" red="0.60572783801020402" green="0.52443016876108062" blue="0.20614225395375202" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0053611288265306145" green="0.003818385587391429" blue="0.004714893204263786" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Total:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BMJ-MJ-wYC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdS-cP-6hA">
+                                <rect key="frame" x="259" y="258" width="92" height="30"/>
+                                <color key="backgroundColor" red="0.89773087721451839" green="0.65695321062445" blue="0.90316087372448983" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.89773087721451839" green="0.65695321062445" blue="0.90316087372448983" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Profit">
+                                    <color key="titleColor" red="0.60572783801020402" green="0.52443016876108062" blue="0.20614225395375202" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Profit:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uGw-is-Zjg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMZ-6u-dvW">
+                                <rect key="frame" x="84" y="42" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.19454875730393853" green="0.30231398884640864" blue="0.91208944515306123" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Volume" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYc-um-01W">
+                                <rect key="frame" x="281" y="42" width="57" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.12287461796264895" green="0.12191307658720145" blue="0.9298270089285714" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbB-3g-1S6">
+                                <rect key="frame" x="467" y="42" width="40" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3eJ-8o-ShM">
+                                <rect key="frame" x="67" y="103" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.98363759566326525" green="0.82463559657532304" blue="0.9512016615372485" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.93333339691162109" green="0.70588237047195435" blue="0.92156869173049927" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uim-KD-8HA">
+                                <rect key="frame" x="261" y="103" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.98363759566326525" green="0.82463559657532304" blue="0.9512016615372485" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zXP-X3-G1F">
+                                <rect key="frame" x="236" y="188" width="170" height="30"/>
+                                <color key="backgroundColor" red="0.98363759566326525" green="0.82463559657532304" blue="0.9512016615372485" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nLb-4n-JCT">
+                                <rect key="frame" x="439" y="103" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.98363759566326525" green="0.82463559657532304" blue="0.9512016615372485" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97765499335525352" green="0.87131939493490274" blue="0.98363759566326525" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.89773087721451839" green="0.65695321062445" blue="0.90316087372448983" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="Name" destination="pMZ-6u-dvW" id="utV-BU-09q"/>
+                        <outlet property="Price" destination="KbB-3g-1S6" id="ZVX-Lo-JnN"/>
+                        <outlet property="Profit" destination="JdS-cP-6hA" id="OTd-JY-Dry"/>
+                        <outlet property="TextName" destination="3eJ-8o-ShM" id="p4p-Ei-Q05"/>
+                        <outlet property="TextPrice" destination="nLb-4n-JCT" id="qR9-8Y-DFe"/>
+                        <outlet property="TextTotal" destination="zXP-X3-G1F" id="YCL-9y-ESS"/>
+                        <outlet property="TextVolume" destination="uim-KD-8HA" id="Ud7-QI-Mo5"/>
+                        <outlet property="Volume" destination="lYc-um-01W" id="XdZ-AD-1T7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="6UL-Rs-u8o">
+                    <rect key="frame" x="0.0" y="0.0" width="461" height="264"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </objects>
+            <point key="canvasLocation" x="506" y="394"/>
+        </scene>
+    </scenes>
+</document>
